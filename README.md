@@ -10,7 +10,7 @@ Register Form
  - hover: card, input
  - mail yanlış girilirse alert veriyor ve border'i kırmızı oluyor
  - user name = name + last name (.js)
- - pasaport kontrolü
+ - password kontrolü
 
 
 ![enter image description here](https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-odev-Vii/main/screenshot/Screenshot_1.png)
