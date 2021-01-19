@@ -42,6 +42,10 @@ body {
   width: 100%;
 }
 
+.card__body .input--red {
+  border-color: red;
+}
+
 .card__body .input:hover {
   border-color: #fca311;
 }
