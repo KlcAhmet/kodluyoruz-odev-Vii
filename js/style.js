@@ -5,7 +5,7 @@ var mail = document.getElementById("mail");
 var pass1 = document.getElementById("pass1");
 var pass2 = document.getElementById("pass2");
 var btn = document.getElementById("buttoncheck");
-var cardBody = document.querySelector("card__body");
+var infoDiv = document.getElementById("infodiv");
 
 
 
@@ -32,6 +32,12 @@ mail.addEventListener("focusout", function() {
 
 btn.addEventListener("click", function() {
     if (pass1.value.length < 8 || pass2.value.length < 8 || pass1.value.length != pass2.value.length) {
-        console.log("aa");
+        infoDiv.classList.add("info--red");
+        infoDiv.style.display = "";
+        infoDiv.children[0].innerText = "Parolanız 8 karakterden az yada eşleşmiyor.";
+    } else {
+        infoDiv.classList.add("info--green");
+        infoDiv.style.display = "";
+        infoDiv.children[0].innerText = "Hoşgeldin @" + userName.value;
     }
 });
