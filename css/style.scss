@@ -51,3 +51,12 @@ body {
     box-shadow: 1px 0px 119px 23px rgba(0, 0, 0, 0.78);
     transition: 800ms;
 }
+
+.info {
+    .info--red {
+        background-color: rgb(187, 3, 3);
+    }
+    .info--green {
+        background-color: rgb(109, 173, 12);
+    }
+}

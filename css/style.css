@@ -66,4 +66,12 @@ body {
   -webkit-transition: 800ms;
   transition: 800ms;
 }
+
+.info .info--red {
+  background-color: #bb0303;
+}
+
+.info .info--green {
+  background-color: #6dad0c;
+}
 /*# sourceMappingURL=style.css.map */
