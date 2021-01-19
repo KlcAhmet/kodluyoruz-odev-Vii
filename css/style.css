@@ -1,1 +1,44 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-color: #fca311;
+  vertical-align: middle;
+  font-family: sans-serif;
+  color: #e5e5e5;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 200px;
+  width: 18rem;
+  padding: 20px;
+}
+
+.card__header {
+  text-align: center;
+  font-weight: 900;
+}
+
+.card__body p {
+  margin: 5px 0px;
+  font-weight: 600;
+}
+
+.card__body input {
+  width: 100%;
+}
+
+.card__footer {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */

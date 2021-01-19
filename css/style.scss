@@ -1,0 +1,35 @@
+body {
+    background-color: #fca311;
+    vertical-align: middle;
+    font-family: sans-serif;
+    color: #e5e5e5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+    width: 18rem;
+    padding: 20px;
+    &__header {
+        text-align: center;
+        font-weight: 900;
+    }
+    &__body {
+        p {
+            margin: 5px 0px;
+            font-weight: 600;
+        }
+        input {
+            width: 100%;
+        }
+    }
+    &__footer {
+        margin-top: 15px;
+    }
+}
