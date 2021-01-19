@@ -39,6 +39,9 @@ body {
     &__footer {
         margin-top: 15px;
     }
+    @media screen and (max-width: 600px) {
+        margin-top: 50px;
+    }
 }
 
 .card:hover {

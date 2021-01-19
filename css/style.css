@@ -50,6 +50,12 @@ body {
   margin-top: 15px;
 }
 
+@media screen and (max-width: 600px) {
+  .card {
+    margin-top: 50px;
+  }
+}
+
 .card:hover {
   -webkit-box-shadow: 1px 0px 119px 23px rgba(0, 0, 0, 0.78);
           box-shadow: 1px 0px 119px 23px rgba(0, 0, 0, 0.78);
