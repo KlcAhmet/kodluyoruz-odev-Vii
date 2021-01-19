@@ -18,7 +18,7 @@
                 <div class="card__header">
                     <h1>Login</h1>
                 </div>
-                <div class="card__body">
+                <div id="card_body" class="card__body">
                     <p>Name</p>
                     <input id="name" class="input" type="text" placeholder="Name">
                     <p>Last Name</p>
@@ -31,6 +31,9 @@
                     <input id="pass1" class="input" type="password" placeholder="max 8 character">
                     <p>Re password</p>
                     <input id="pass2" class="input" type="password" placeholder="Re-type password">
+                    <div class="info" style="display: none;">
+                        <p>Parolanız 8 karakterden az yada eşleşmiyor.</p>
+                    </div>
                 </div>
                 <div class="card__footer">
                     <button id="buttoncheck" type="button" class="btn btn-danger btn-lg btn-block">Warning</button>
