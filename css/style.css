@@ -67,6 +67,10 @@ body {
   transition: 800ms;
 }
 
+.info {
+  display: none;
+}
+
 .info .info--red {
   background-color: #bb0303;
 }
