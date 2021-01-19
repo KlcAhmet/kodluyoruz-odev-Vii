@@ -25,11 +25,23 @@ body {
             margin: 5px 0px;
             font-weight: 600;
         }
-        input {
+        .input {
+            background-color: #e5e5e5;
+            border: 3px solid transparent;
+            border-radius: 10px;
+            outline: none;
             width: 100%;
+        }
+        .input:hover {
+            border-color: #fca311;
         }
     }
     &__footer {
         margin-top: 15px;
     }
+}
+
+.card:hover {
+    box-shadow: 1px 0px 119px 23px rgba(0, 0, 0, 0.78);
+    transition: 800ms;
 }

@@ -35,7 +35,15 @@ body {
 }
 
 .card__body .input {
+  background-color: #e5e5e5;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  outline: none;
   width: 100%;
+}
+
+.card__body .input:hover {
+  border-color: #fca311;
 }
 
 .card__footer {
