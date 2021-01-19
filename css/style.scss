@@ -53,11 +53,11 @@ body {
 }
 
 .info {
-    display: none;
-    .info--red {
+    padding: 0px 10px;
+    &--red {
         background-color: rgb(187, 3, 3);
     }
-    .info--green {
+    &--green {
         background-color: rgb(109, 173, 12);
     }
 }

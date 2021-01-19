@@ -68,14 +68,14 @@ body {
 }
 
 .info {
-  display: none;
+  padding: 0px 10px;
 }
 
-.info .info--red {
+.info--red {
   background-color: #bb0303;
 }
 
-.info .info--green {
+.info--green {
   background-color: #6dad0c;
 }
 /*# sourceMappingURL=style.css.map */
